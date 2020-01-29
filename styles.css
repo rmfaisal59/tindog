@@ -1,0 +1,108 @@
+body {
+  font-family: "Montserrat"
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+p {
+  color: grey;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+#title {
+  background-color: #ff4c68;
+}
+
+#middle {
+  text-align: center;
+  padding: 10rem 0;
+  position: relative;
+  background-color: white;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.container-fluid {
+  padding: 3% 15% 2%;
+  color: white;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.icon {
+  margin: 5% 3% 5% 3%;
+}
+
+.title-image {
+  width: 40%;
+  transform: rotate(30deg);
+  position: absolute;
+}
+
+.fac {
+  color: #ef8172;
+}
+
+.fac:hover {
+  color: #ff4c68;
+}
+/* test section */
+
+
+#test {
+background-color: #ef8172;
+text-align: center;
+color: white;
+
+
+}
+.dog-img {
+  width: 15%;
+}
+.test-imgs {
+  padding: 20px 50px;
+  width: 20%;
+}
+@media (max-width:1028px){
+  #title {
+    text-align: center;
+
+  }
+  .title-image{
+    position: static;
+  }
+}
+.carousel-section {
+  height: 500px;
+}
+/* bottomsecrion */
+#bottom-section {
+  padding: 50px 0;
+  height: 200px;
+  background-color: #ff4c68;
+  text-align: center;
+}
+/* footersection */
+#footer-section {
+  padding: 50px;
+  height: 150px;
+  text-align: center;
+}
+.footer-icon {
+  margin: 20px 20px;
+}
+#logo-img {
+  text-align: center;
+  background-color: #ef8172;
+}
